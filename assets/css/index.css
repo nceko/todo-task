@@ -1,0 +1,75 @@
+body {
+  background-color: gray;
+}
+
+body .container {
+  background-color: rgb(32, 0, 53);
+  border-radius: 3%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+}
+
+header {
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+header p {
+  margin-top: -2%;
+  margin-bottom: 5%;
+}
+
+main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.form-input {
+  text-align: left;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 2%;
+  font-size: medium;
+  color: white;
+}
+
+input {
+  width: 75%;
+  padding: auto;
+}
+
+.form-input button {
+  width: 20%;
+  padding: auto;
+}
+
+.nav-action {
+  margin-top: -10%;
+  margin-bottom: -20%;
+  padding: 12%;
+  width: 100%;
+}
+
+.nav-action button {
+  width: 25%;
+}
+
+ol {
+  display: none;
+}
+
+@media only screen and (max-width: 601px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: small;
+  }
+}

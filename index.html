@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Daily Task</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Make your daily task here</h1>
+        <p>
+          This's just for your daily task to <br />
+          remember your task
+        </p>
+      </header>
+      <section>
+        <main>
+          <form action="#" name="form-todo-list">
+            <div class="form-input">
+              <label for="add-task"> New Task</label>
+              <input type="text" name="task" id="add-task" />
+              <button id="submit-task">SUBMIT</button>
+            </div>
+          </form>
+        </main>
+      </section>
+    </div>
+    <div class="nav-action">
+      <button>Clear Done Task</button>
+      <button>Empty Task</button>
+      <button>Save Task</button>
+    </div>
+    <div class="container">
+      <section>
+        <main>
+          <ol id="this-list"></ol>
+        </main>
+      </section>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

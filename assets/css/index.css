@@ -57,6 +57,7 @@ input {
 }
 
 .nav-action {
+  display: none;
   margin-top: -10%;
   margin-bottom: -20%;
   padding: 12.5%;
@@ -100,7 +101,11 @@ input {
 }
 
 .list-view {
-  display: blok;
+  display: none;
+}
+
+.showing {
+  display: block;
 }
 
 ol {
